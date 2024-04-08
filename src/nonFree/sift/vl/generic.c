@@ -187,7 +187,7 @@ library module. These include:
 - Atomic types (e.g. ::vl_int32).
 - Special syntaxes for the declaration of symbols exported by the library
   and inline functions (e.g. ::VL_EXPORT).
-- Host-dependent conversion of data endianess
+- Host-dependent conversion of data endianness
   (e.g. ::vl_swap_host_big_endianness_8()).
 
 VLFeat uses processor specific features (e.g. Intel SSE) if those are

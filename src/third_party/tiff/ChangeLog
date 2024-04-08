@@ -2736,7 +2736,7 @@ btiff/tif_win32.c: Replace custom Win32 memory api with generic
 
 2005-06-03  Andrey Kiselev  <dron@ak4719.spb.edu>
 
-	* libtiff/tif_open.c: Replace runtime endianess check with the compile
+	* libtiff/tif_open.c: Replace runtime endianness check with the compile
 	time one.
 
 	* libtiff/tif_predict.c: Floating point predictor now works on
